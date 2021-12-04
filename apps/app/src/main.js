@@ -4,8 +4,6 @@ import { app, BrowserWindow } from 'electron';
 import startup from 'electron-squirrel-startup';
 import { environment } from './environment';
 
-console.log('hello from main');
-
 if (startup) {
   app.quit();
 }
